@@ -19,7 +19,7 @@ def main():
     # PlaNet
     parser.add_argument('--collect_interval', default=100)
     parser.add_argument('--test_interval', default=10)
-    parser.add_argument('--batch_size', default=128)
+    parser.add_argument('--batch_size', default=128, type=int)
     parser.add_argument('--train_epoch', default=1200)
     parser.add_argument('--planning_horizon', default=24)
     parser.add_argument('--use_value_function', default=False)
